@@ -1,3 +1,28 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+	font-family:monospace;
+	text-align: center;
+	color:blue;
+
+}
+footer{
+	text-align:center;
+	font-family: 'Monospace', serif;
+	
+}
+.navbar{
+	font-family: 'Monospace', serif;
+	font-size:150%;
+}
+#mininav ul li a{
+	color: grey;
+}
+
+#mininav ul li a:hover {
+    color: white;
+    -webkit-transition: color 600ms;
+    transition: color 600ms;
+ }
