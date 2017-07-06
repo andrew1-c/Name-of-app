@@ -1,28 +1,91 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-h1{
-	font-family:monospace;
-	text-align: center;
-	color:blue;
-
+header {
+    font-family: monospace;
+    text-align: center;
+    color: blue;
 }
-footer{
-	text-align:center;
-	font-family: 'Monospace', serif;
-	
+footer {
+    text-align: center;
+    font-family: 'Monospace', serif;
+    position: relative;
 }
-.navbar{
-	font-family: 'Monospace', serif;
-	font-size:150%;
+//Nav css
+.navbar {
+    font-family: 'Monospace', serif;
+    font-size: 150%;
 }
-#mininav ul li a{
-	color: grey;
+.nav li a {
+    color: grey;
 }
-
-#mininav ul li a:hover {
+.nav:hover {
     color: white;
     -webkit-transition: color 600ms;
     transition: color 600ms;
- }
+}
+//Main  app Page
+#mainpage {
+    width: 80%;
+    margin: 0 auto;
+}
+#darkernights h3 {
+    text-align: center;
+}
+#gamebox {
+    left: 1;
+    width: 100%;
+    z-index: 20;
+    background-size: cover;
+}
+.oldbuilding {
+    background-size: cover;
+    width: 100%;
+}
+.messagebar {
+    font-size: 150%;
+    position: absolute;
+    z-index: 25;
+    width: 95%;
+    color: red;
+    bottom: 5%;
+    margin-left: auto;
+    border-top: 1px solid black;
+    background-color: black;
+    height: 20%;
+    opacity: 0.7;
+}
+#playersmessage {
+    position: absolute;
+    left: 1%;
+}
+#playerschoice {
+    position: absolute;
+    top: 100%;
+    left: 1%;
+    word-spacing: 100%;
+}
+.worddivider {
+    width: 10%;
+}
+.icon-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0%;
+    background: transparent;
+}
+#backbutton {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+#gobutton {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+}
+.mycat {
+    margin: 0 auto;
+}

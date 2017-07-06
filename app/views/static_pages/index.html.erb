@@ -1,3 +1,41 @@
-<h1>Welcome! to Andrews bike store</h1>
-<h2>Your source for bikes of all measures.</h2>
-<%= image_tag("kitty.jpg", class: "img-responsive mycat") %>
+<main class="container-fluid">
+    <section id="mainpage">
+        <header>
+            <h1>Welcome to Adventures Are Yours</h1>
+
+            <h5>Your source for Fantasy/Psuedo reality Rpg's.</h5>
+        </header>
+        <hr>
+        <article id="darkernights">
+            <h3>Darker Nights</h3>
+            <div class="row">
+                <div id="gamebox" class=" img-responsive col-xs-12 col-sm-6 col-md-8">
+                    <%=image_tag( "oldruinedbuilding.jpeg", :class=> "img-responsive oldbuilding") %>
+                        <div class="messagebar">
+
+                            <button id="gobutton" type="button" class="icon-button">
+                                <span class="glyphicon glyphicon-menu-right"></span>
+                            </button>
+
+
+                            <button id="backbutton" type="button" class="icon-button">
+                                <span class="glyphicon glyphicon-menu-left"></span>
+                            </button>
+
+
+                            <div id="playersmessage">Welcome to My Semi Working text-based game, I'm really just starting so, it's really a pre-alpha release, so for now just press the Right arrow to start playing.If you like it please let me know.
+
+                            </div>
+
+
+                        </div>
+                </div>
+            </div>
+
+
+
+
+            <%=image_tag( "kitty.jpg", class: "img-responsive mycat") %>
+        </article>
+    </section>
+</main>
